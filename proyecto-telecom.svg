@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs><linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f2742"/><stop offset="1" stop-color="#0a1828"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#bg4)"/>
+  <!-- tower -->
+  <g stroke="#2a6fb0" stroke-width="5" fill="none">
+    <path d="M340 540 L 400 110 L 460 540"/>
+    <path d="M360 400 L 440 400 M350 330 L 450 330 M362 260 L 438 260 M372 195 L 428 195"/>
+    <path d="M340 540 L 440 400 M460 540 L 360 400 M360 400 L 450 330 M440 400 L 350 330 M350 330 L 438 260 M450 330 L 362 260 M362 260 L 428 195 M438 260 L 372 195"/>
+  </g>
+  <!-- antenna dishes -->
+  <ellipse cx="400" cy="120" rx="14" ry="22" fill="#f5b301"/>
+  <rect x="395" y="100" width="10" height="20" fill="#38bdf8"/>
+  <!-- signal waves -->
+  <g stroke="#38bdf8" stroke-width="4" fill="none" opacity="0.8">
+    <path d="M470 120 A 80 80 0 0 1 470 240"/>
+    <path d="M500 100 A 130 130 0 0 1 500 260"/>
+    <path d="M530 80 A 180 180 0 0 1 530 280"/>
+  </g>
+  <g stroke="#38bdf8" stroke-width="4" fill="none" opacity="0.8">
+    <path d="M330 120 A 80 80 0 0 0 330 240"/>
+    <path d="M300 100 A 130 130 0 0 0 300 260"/>
+  </g>
+  <!-- fiber strands at base -->
+  <g stroke-width="4" fill="none" opacity="0.9">
+    <path d="M300 545 C 360 520, 440 520, 500 545" stroke="#2a9d8f"/>
+    <path d="M280 555 C 360 535, 440 535, 520 555" stroke="#f5b301"/>
+    <path d="M260 565 C 360 550, 440 550, 540 565" stroke="#e63946"/>
+  </g>
+  <circle cx="400" cy="120" r="6" fill="#fff"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#143861"/><stop offset="1" stop-color="#0a1828"/></linearGradient>
+    <radialGradient id="beam" cx="0.2" cy="0.3" r="0.9"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.35"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3)"/>
+  <!-- field of view -->
+  <path d="M250 170 L 720 360 L 720 540 L 250 250 Z" fill="url(#beam)"/>
+  <!-- mount -->
+  <rect x="150" y="150" width="40" height="120" rx="6" fill="#0f2742" stroke="#2a6fb0" stroke-width="2"/>
+  <rect x="120" y="140" width="100" height="22" rx="6" fill="#143861" stroke="#2a6fb0" stroke-width="2"/>
+  <!-- camera body -->
+  <g transform="rotate(18 290 200)">
+    <rect x="180" y="175" width="180" height="70" rx="35" fill="#0f2742" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="340" cy="210" r="30" fill="#0a1828" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="340" cy="210" r="16" fill="#143861"/>
+    <circle cx="334" cy="204" r="5" fill="#cfe9ff"/>
+    <rect x="195" y="188" width="40" height="14" rx="4" fill="#f5b301"/>
+  </g>
+  <!-- recording dot -->
+  <circle cx="600" cy="120" r="14" fill="#e63946"/>
+  <text x="624" y="128" fill="#e8edf3" font-family="Arial" font-size="22" font-weight="bold">REC</text>
+  <!-- grid floor -->
+  <g stroke="#1c3553" stroke-width="1.5" opacity="0.5">
+    <path d="M250 470 H760 M250 510 H760 M280 440 L 250 540 M420 440 L 420 540 M560 440 L 600 540 M700 440 L 760 540"/>
+  </g>
+</svg>

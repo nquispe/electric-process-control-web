@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#143861"/><stop offset="1" stop-color="#0a1828"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg1)"/>
+  <!-- tablero eléctrico -->
+  <rect x="250" y="90" width="300" height="430" rx="10" fill="#0f2742" stroke="#2a6fb0" stroke-width="3"/>
+  <rect x="270" y="120" width="260" height="80" rx="4" fill="#0a1828" stroke="#1c3553"/>
+  <g fill="#38bdf8">
+    <rect x="285" y="140" width="40" height="40" rx="3"/><rect x="335" y="140" width="40" height="40" rx="3"/>
+    <rect x="385" y="140" width="40" height="40" rx="3"/><rect x="435" y="140" width="40" height="40" rx="3"/>
+    <rect x="485" y="140" width="30" height="40" rx="3"/>
+  </g>
+  <!-- breakers -->
+  <g>
+    <rect x="270" y="220" width="260" height="120" rx="4" fill="#0a1828" stroke="#1c3553"/>
+    <g fill="#f5b301"><rect x="285" y="240" width="20" height="35" rx="2"/><rect x="315" y="240" width="20" height="35" rx="2"/><rect x="345" y="240" width="20" height="35" rx="2"/><rect x="375" y="240" width="20" height="35" rx="2"/><rect x="405" y="240" width="20" height="35" rx="2"/><rect x="435" y="240" width="20" height="35" rx="2"/><rect x="465" y="240" width="20" height="35" rx="2"/><rect x="495" y="240" width="20" height="35" rx="2"/></g>
+    <g fill="#4a90d9"><rect x="285" y="290" width="20" height="35" rx="2"/><rect x="315" y="290" width="20" height="35" rx="2"/><rect x="345" y="290" width="20" height="35" rx="2"/><rect x="375" y="290" width="20" height="35" rx="2"/><rect x="405" y="290" width="20" height="35" rx="2"/><rect x="435" y="290" width="20" height="35" rx="2"/></g>
+  </g>
+  <!-- cables -->
+  <g stroke-width="4" fill="none" opacity="0.85">
+    <path d="M270 380 C 220 400, 220 460, 300 470" stroke="#f5b301"/>
+    <path d="M300 390 C 250 420, 260 480, 340 490" stroke="#38bdf8"/>
+    <path d="M530 380 C 580 400, 580 460, 500 470" stroke="#e63946"/>
+    <path d="M500 390 C 560 420, 540 480, 460 490" stroke="#2a9d8f"/>
+  </g>
+  <circle cx="400" cy="60" r="22" fill="#f5b301"/>
+  <path d="M404 48 l-12 18 h10 l-4 14 14-20 h-10 z" fill="#0a1828"/>
+</svg>
